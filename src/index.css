@@ -1,0 +1,15 @@
+@import "tailwindcss";
+body {
+  @apply bg-black text-white;
+}
+.c-space{
+  @apply sm:px-10 px-5;
+}
+.waving-hand{
+  
+  animation-name: wave;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
